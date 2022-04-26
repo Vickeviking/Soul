@@ -1,0 +1,302 @@
+*{
+    overflow-x: hidden;
+    margin: 0%;
+}
+
+.backgroundimg{
+      background-image: url('./img/Hero.jpg');
+}
+
+header{
+    display: flex;
+    height: 30wh;
+    background-color:rgb(28, 32, 34, 0.7);
+
+}
+
+main{
+    height: 80vh;
+
+}
+.Loggan
+{
+    display: flex;
+}
+
+.Loggan h1
+{
+    color: white;
+    margin-top: 1em;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.HeaderPacket{
+    text-align: center;
+    margin-top: 5em;
+    margin-right: 2em;
+}
+
+.HeaderPacket h1{
+    color: aliceblue;
+    font-size: 2.5em;
+    font-style: italic;
+}
+
+.txt2{margin-left: 2em;}
+
+.Logga{
+    width: 5vw;
+}
+
+.Navbar{
+    margin-left: 30vw;
+    display: flex;
+    gap: 5em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.Navbar a{
+    font-style: normal;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.Navbar a :hover{
+    text-decoration: underline;
+}
+
+.OurDeals{
+    
+    background-color:  #20272e; ;
+}
+
+.Deals{
+    
+    background-color: #20272e;
+    display: flex;
+    justify-content: space-around;
+    color: aliceblue;
+}
+
+.introDeals
+{
+background-color: #20272e;;
+text-align: center;
+color:aliceblue;
+padding-bottom: 1em;
+padding-top: 1em;
+}
+
+.introCustomers
+{
+background-color: #1a2026;;
+text-align: center;
+color:aliceblue;
+padding-bottom: 1em;
+padding-top: 1em;
+}
+.introDeals h1
+{
+text-decoration:wavy;
+}
+
+.package{
+    
+    background-color: #20272e;
+    width: 20em;
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+.package p
+{
+    text-align: center;
+    margin-left: 1.8em;
+    margin-right: 1.8em;
+    margin-top: 0.5em;
+    border-top: 1px solid white;
+    padding-top: 0.5em;
+    padding-bottom: 1em;
+}
+
+.package h1{
+    margin-top: 0.5em;
+    margin-bottom: 0.25em;
+}
+
+.package img{
+    width: 16em;
+    height: 22em;
+}
+
+.blackspace{
+    background-color: #20272e;
+    height: 2em;
+}
+
+
+.Funeral
+{
+    display: flex;
+    background-color: rgb(250, 245, 236);
+}
+
+.flex{
+    display: flex;
+    padding-bottom: 1em;
+    border-bottom: 1px solid white;
+}
+
+
+
+.högerDel
+{
+    margin-top: 2em;
+    margin-left: 1em;
+}
+
+#Ändra
+{
+padding:0.35em 1.2em;
+border:0.1em solid #b0b0b0;
+margin:0 0.3em 0.3em 0;
+border-radius:0.12em;
+text-decoration:none;
+font-family:'Roboto',sans-serif;
+font-weight:300;
+text-align:center;
+height: 3em;
+}
+
+
+
+.Quote
+{
+    margin-top: 2em;
+    width: 25em;
+    font-size: 1.4;
+    margin-bottom: 1em;
+}
+
+
+
+#h2{
+    font-size: 1.5em;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    width: 15em;
+}
+
+footer{
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #20272e;
+    height: auto;
+    width: 100vw;
+    padding-top: 40px;
+    color: #fff;
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3{
+    font-size: 2.1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+    color: #cacdd2;
+}
+
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.socials li{
+    margin: 0 10px;
+    
+    overflow-y: hidden;
+}
+
+.socials a{
+    text-decoration: none;
+    color: #fff;
+}
+
+li{overflow-x: hidden;}
+
+.socials a i{
+    font-size: 1.1rem;
+    width: 20px;
+    transition: color .4s ease;
+}
+
+.socials a:hover i{
+    color: aqua;
+}
+
+.footer-bottom{
+    background: #20272e;
+    width: 100vw;
+    padding: 20px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.footer-menu{
+    float: right;
+    margin-right: 2em;
+  }
+  
+  .footer-menu ul{
+    display: flex;
+  }
+  
+  .footer-menu ul li{
+  padding-right: 10px;
+  display: block;
+  }
+  
+  .footer-menu ul li a{
+    color: #cfd2d6;
+    text-decoration: none;
+  }
+  
+  .footer-menu ul li a:hover{
+    color: #27bcda;
+  }
+
+@media only screen and (max-width: 600px) {
+  
+    .Navbar{
+        visibility: hidden;
+    }
+
+    .footer-menu ul{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    }
+        
+  }
+  
