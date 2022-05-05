@@ -292,10 +292,39 @@ li{overflow-x: hidden;}
         visibility: hidden;
     }
 
+    .Navbar
+    {
+        width: 0em;
+    }
+
+    .Logga
+    {
+        width: 5em;
+    }
+
+    .Loggan h1
+    {
+        font-size: 3em;
+    }
+
     .footer-menu ul{
     display: flex;
     margin-top: 10px;
     margin-bottom: 20px;
+    }
+
+    .Deals
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Funeral
+    {
+        visibility: hidden;
+        height: 0em;
     }
         
   }
